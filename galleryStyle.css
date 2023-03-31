@@ -7,14 +7,14 @@
 
 nav {
     width: 100%;
-    background-color: #181818;
+    background-color: transparent;
     height: 70px;
 }
 
 nav > a h3 {
     float: left;
     font-family: 'Fjalla One', sans-serif;
-    color: #ffffff;
+    color: #000000;
     font-size: 28px;
     letter-spacing: 2px;
     margin: 20px 30px;
@@ -35,20 +35,25 @@ nav > a h3 {
 .link1 li a{
     text-decoration: none;
     font-family: 'Fjalla One', sans-serif;
-    color: #DFD5D5;
+    color: #181818;
     margin-left: 40px;
     transition: 0.2s ease-in-out;
+    padding: 5px 0;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .link1 li a:hover{
-    color: #ffffff;
+    color: #181818;
+    border-top: 2px solid #181818;
+    border-bottom: 2px solid #181818;
 }
 
 #current {
     padding: 5px 0;
-    border-top: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;   
-    color: #ffffff;
+    border-top: 2px solid #181818;
+    border-bottom: 2px solid #181818;   
+    color: #000000;
 }
 
 /* COVER */
@@ -71,6 +76,7 @@ nav > a h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 140px;
 }
 
 .picture img {
@@ -83,7 +89,7 @@ nav > a h3 {
 .title h1 {
     font-family: 'Fjalla One', sans-serif;
     color: #181818;
-    font-size: 64px;
+    font-size: 68px;
     padding-bottom: 10px;
 }
 
